@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <!-- Theme Made By www.w3schools.com -->
-    <title>Bootstrap Theme Company Page</title>
+    <title>Perfozone</title>
+    <link rel="icon" type="image/png" href="asset/icon_perfozone.png.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -32,6 +32,7 @@
             color: #303030;
             font-weight: 400;
             margin-bottom: 30px;
+            text-align: justify;
         }
 
         .jumbotron {
@@ -189,6 +190,10 @@
             visibility: visible;
         }
 
+        .disclaimer {
+            color: red;
+        }
+
         @keyframes slide {
             0% {
                 opacity: 0;
@@ -233,7 +238,7 @@
     </style>
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="page_top" data-spy="scroll" data-target=".navbar" data-offset="60">
 
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -244,16 +249,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!-- <a class="navbar-brand" href="#myPage">Perfozone</a> -->
-                <img src="asset/DZ - OLUK - Perfozone - logo -  final-01.png" width="250" />
+                <!-- <a class="navbar-brand" href="#page_top">Perfozone</a> -->
+                <img src="asset/DZ - OLUK - Perfozone - logo -  final-01.png" width="110" />
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#services">SERVICES</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#pricing">PRICING</a></li>
-                    <li><a href="#contact">CONTACT</a></li> -->
+                    <li><a href="#introduction">INTRODUCTION</a></li>
+                    <li><a href="#product">PRODUCT</a></li>
+                    <li><a href="#riskmanagement">RISK MANAGEMENT</a></li>
+                    <!-- <li><a href="#pricing">PRICING</a></li> -->
+                    <li><a href="#disclaimer">DISCLAIMER</a></li>
                 </ul>
             </div>
         </div>
@@ -261,7 +266,7 @@
 
     <div class="jumbotron text-center">
         <h1>Perfozone</h1>
-        <p>Tagline goes here</p>
+        <!-- <p></p> -->
         <form>
             <div class="input-group" style="display:none">
                 <input type="email" class="form-control" size="50" placeholder="Email Address" required>
@@ -272,250 +277,185 @@
         </form>
     </div>
 
-    <!-- Container (About Section) -->
-    <div id="about" class="container-fluid">
-        <div class="row" align="center">
-            <div>
-                <!-- <span class="glyphicon glyphicon-signal logo"></span> -->
-                <img src="asset/work-in-progress.png" width="300" />
-            </div>
-            <div>
-                <h2>Coming Soon</h2><br>
-                <h4>The Website Is Under Construction</h4><br>
-                <p></p>
+    <!-- Container (Introduction Section) -->
+    <div id="introduction" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Introduction</h2><br>
+                <h4>We are on the verge of developing and launching an integrated performance-based
+                    system solution for investment banks, pension funds, hedge fund group,
+                    financial institution, and capital markets.
+                </h4>
+                <h4>The innovative Artificial Intelligence is able to facilitate investment potential
+                    for wealth creation and fund quality enhancement by providing financial
+                    connectivity between capital markets and knowledge driven investors.
+                </h4>
+                <h4>The Perfozone Artificial Intelligence System Solution provides multi strategy
+                    capabilities based on enhanced neural intelligence of self-learning pattern
+                    recognition, analysis of event driven performance and alternative Beta solutions
+                    in the multi-lateral capital markets platforms. </h4>
+                <h4>The solution will take advantage
+                    of self-generating ideas, concepts and predictive strategies through inventive
+                    methodical thinking on near or real time pricing structure and other overlay
+                    services for high yielding investment solution.</h4>
+
                 <!-- <br><button class="btn btn-default btn-lg">Get in Touch</button> -->
+            </div>
+            <div class="col-sm-4" align="center">
+                <span class="glyphicon glyphicon-signal logo"></span>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid bg-grey" style="display: none">
+    <div class="container-fluid bg-grey">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4" align="center">
                 <span class="glyphicon glyphicon-globe logo slideanim"></span>
             </div>
             <div class="col-sm-8">
-                <h2>Our Values</h2><br>
-                <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-                <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.</p>
+                <h2>Who we are?</h2><br>
+                <h4>We are a group of enthusiastic mathematicians, scientists, engineers and business-
+                    oriented individuals who have joined together from different regions of the world
+                    to develop and launch Perfozone solution platform. The group offer over 50+
+                    years of combined high-tech business development experience to develop this
+                    unique project. We are constantly looking to expand our team to achieve higher
+                    goals for our future projects.</h4><br>
+
             </div>
         </div>
     </div>
-
-    <!-- Container (Services Section) -->
-    <div id="services" class="container-fluid text-center" style="display: none;">
-        <h2>SERVICES</h2>
-        <h4>What we offer</h4>
-        <br>
-        <div class="row slideanim">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-off logo-small"></span>
-                <h4>POWER</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-heart logo-small"></span>
-                <h4>LOVE</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-lock logo-small"></span>
-                <h4>JOB DONE</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-        </div>
-        <br><br>
-        <div class="row slideanim">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-leaf logo-small"></span>
-                <h4>GREEN</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-certificate logo-small"></span>
-                <h4>CERTIFIED</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-wrench logo-small"></span>
-                <h4 style="color:#303030;">HARD WORK</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Container (Portfolio Section) -->
-    <div id="portfolio" class="container-fluid text-center bg-grey" style="display: none">
-        <h2>Portfolio</h2><br>
-        <h4>What we have created</h4>
-        <div class="row text-center slideanim">
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="paris.jpg" alt="Paris" width="400" height="300">
-                    <p><strong>Paris</strong></p>
-                    <p>Yes, we built Paris</p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="newyork.jpg" alt="New York" width="400" height="300">
-                    <p><strong>New York</strong></p>
-                    <p>We built New York</p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-                    <p><strong>San Francisco</strong></p>
-                    <p>Yes, San Fran is ours</p>
-                </div>
-            </div>
-        </div><br>
-
-        <h2>What our customers say</h2>
-        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President,
-                            Comment Box</span></h4>
-                </div>
-                <div class="item">
-                    <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
-                </div>
-                <div class="item">
-                    <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor,
-                            FriendsAlot</span></h4>
-                </div>
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-
-    <!-- Container (Pricing Section) -->
-    <div id="pricing" class="container-fluid" style="display: none">
-        <div class="text-center">
-            <h2>Pricing</h2>
-            <h4>Choose a payment plan that works for you</h4>
-        </div>
-        <div class="row slideanim">
-            <div class="col-sm-4 col-xs-12">
-                <div class="panel panel-default text-center">
-                    <div class="panel-heading">
-                        <h1>Basic</h1>
-                    </div>
-                    <div class="panel-body">
-                        <p><strong>20</strong> Lorem</p>
-                        <p><strong>15</strong> Ipsum</p>
-                        <p><strong>5</strong> Dolor</p>
-                        <p><strong>2</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
-                    </div>
-                    <div class="panel-footer">
-                        <h3>$19</h3>
-                        <h4>per month</h4>
-                        <button class="btn btn-lg">Sign Up</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <div class="panel panel-default text-center">
-                    <div class="panel-heading">
-                        <h1>Pro</h1>
-                    </div>
-                    <div class="panel-body">
-                        <p><strong>50</strong> Lorem</p>
-                        <p><strong>25</strong> Ipsum</p>
-                        <p><strong>10</strong> Dolor</p>
-                        <p><strong>5</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
-                    </div>
-                    <div class="panel-footer">
-                        <h3>$29</h3>
-                        <h4>per month</h4>
-                        <button class="btn btn-lg">Sign Up</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <div class="panel panel-default text-center">
-                    <div class="panel-heading">
-                        <h1>Premium</h1>
-                    </div>
-                    <div class="panel-body">
-                        <p><strong>100</strong> Lorem</p>
-                        <p><strong>50</strong> Ipsum</p>
-                        <p><strong>25</strong> Dolor</p>
-                        <p><strong>10</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
-                    </div>
-                    <div class="panel-footer">
-                        <h3>$49</h3>
-                        <h4>per month</h4>
-                        <button class="btn btn-lg">Sign Up</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Container (Contact Section) -->
-    <div id="contact" class="container-fluid bg-grey" style="display: none">
-        <h2 class="text-center">CONTACT</h2>
+    <!-- Container (Product:) -->
+    <div id="product" class="container-fluid">
         <div class="row">
-            <div class="col-sm-5">
-                <p>Contact us and we'll get back to you within 24 hours.</p>
-                <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-                <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-                <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+            <div class="col-sm-8">
+                <h2>Product:</h2>
+                <h2>Company Shares Selection Strategy - Performance Report (CSSS)</h2><br>
+                <h4>The sophisticated Company Shares Selection Strategy Performance Report
+                    (CSSS) operates exclusively in our Perfozone blockchain platform. The CSSS
+                    score’s indicator are the results of analytical performance reports that analyses
+                    the listed stocks strictly based on results of some financial ratios of the listed
+                    companies including: Quick Ratio, Debt to Equity Ratio, Operating Profit Margin,
+                    Return on Assets, Return on Equity, P/E Ratio, P/BV Ratio, and EPS Growth.
+                </h4>
+                <h4>Our CSSS solution-based platform can offer the best investment opportunities
+                    based upon stocks aggressive growth profile, high level equity ratio,
+                    countercyclical characteristics that exhibiting relatively high barriers entry such
+                    as water and power; healthcare; pharmaceutical; media, telecom; oil and gas;
+                    financial services.</h4>
+                <h4>With strong management and associate technical teams behind CSSS system
+                    solution, we expect to be able to accumulate large pool of investors who wish to
+                    explore our zero management fees and secure platform.</h4>
+                <p></p>
+                <!-- <br><button class="btn btn-default btn-lg">Get in Touch</button> -->
             </div>
-            <div class="col-sm-7 slideanim">
-                <div class="row">
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                    </div>
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                    </div>
-                </div>
-                <textarea class="form-control" id="comments" name="comments" placeholder="Comment"
-                    rows="5"></textarea><br>
-                <div class="row">
-                    <div class="col-sm-12 form-group">
-                        <button class="btn btn-default pull-right" type="submit">Send</button>
-                    </div>
-                </div>
+            <div class="col-sm-4" align="center">
+                <span class="glyphicon glyphicon-tasks logo slideanim"></span>
             </div>
         </div>
     </div>
 
-    <!-- Image of location/map -->
-    <!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%"> -->
+    <!-- Container (Risk Management Section) -->
+    <div id="riskmanagement" class="container-fluid text-center bg-grey" ">
+        <h2>Perfozone Risk Management</h2><br>
+        <!-- <h4>What we offer</h4> -->
+        <br>
+        <div class=" row slideanim">
+        <div class="col-sm-6">
+            <span class="glyphicon glyphicon-list-alt logo-small"></span>
+            <h4>Perfozone system solution aims on developing and integrating risk engine
+                technology into high volume of performance reporting platforms. The technology
+                is proprietary module and is applicable to all segments of cross-platform capital
+                markets. Perfozone risk system solution engine’s analyze order flow in real-time
+                and determines optimal hedging strategies based on predetermined risk parameters.</h4>
+            <!-- <p></p> -->
+        </div>
+        <div class="col-sm-6">
+            <span class="glyphicon glyphicon-lock logo-small"></span>
+            <h4>The Perfozone risk engine analyzes historical order flow to determine if the current
+                hedging strategies are optimal. Furthermore, our risk engine is able to white labels
+                a proprietary trading platform with embedded risk management, CRM, and back-
+                office technology.</h4>
+            <!-- <p></p> -->
+        </div>
+    </div>
+
+    </div>
+    <!-- Container (Forward Looking Statements) -->
+    <div id="" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Forward Looking Statements</h2><br>
+                <h4>Forward Looking Statements
+                    Perfozone is a multilayer groundbreaking digital and search engine platform,
+                    serving retail investors, banks and hedge funds. Perfozone’s software
+                    platform, API and services deliver automated algorithmic trading, smart order
+                    routing, and customized trading solutions that optimize digital asset trading
+                    operations with connectivity to over 100 of the top crypto exchanges globally.
+                    Perfozone &#39;s platform bridges the gap for digital asset trading and provides
+                    institutional capabilities like more traditional forex, derivative, and equities
+                    trading platforms.
+                </h4>
+                <!-- <h4></h4> -->
+                <p></p>
+                <!-- <br><button class="btn btn-default btn-lg">Get in Touch</button> -->
+            </div>
+            <div class="col-sm-4" align="center">
+                <span class="glyphicon glyphicon-forward logo slideanim"></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="disclaimer" class="container-fluid bg-grey">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="disclaimer">Disclaimer</h2><br>
+                <h4>These documents are presented here to benefit and promote the services of Perfozone Limited or
+                    future partners. The information and ideas herein are the
+                    proprietary, sole, and exclusive property of Perfozone Limited. This document
+                    should not be construed as an offer to sell securities in accordance with
+                    SEC regulatory. The information contained herein is of a general nature and is not
+                    intended to address the circumstances of any individual or entity. Although we
+                    endeavor to provide accurate and timely information, there can be no guarantee
+                    that such information is accurate as of the date it is received or that it will continue
+                    to be accurate in the future. No one should act upon such information without
+                    appropriate professional advice after a thorough examination of the situation.</h4>
+                <h4>Perfozone Limited does not provide financial or legal advices. All data provided on
+                    these documents are provided for informational purposes only and is not intended
+                    for trading or investing purposes. Any other links in these documents are not
+                    official and should be taken as such nor have anything to do with Perfozone
+                    Limited or its director or employees. This release includes within the meaning of
+                    Section 27A of the Securities Act of 1933, as amended, and Section 21E of the
+                    Securities Exchange Act of 1934. Certain statements set forth in this press release
+                    constitutes &#39;forward-looking statements without limitation, any statement that may
+                    predict, forecast, indicate, or imply future results, performance or achievements,
+                    and may contain the words &#39;estimate&#39;, &#39;project&#39;, &#39;intend&#39;,
+                    &#39;forecast&#39;,
+                    &#39;anticipate&#39;, &#39;plan&#39;,
+                    &#39;planning&#39;, &#39;expect&#39;, &#39;believe&#39;, &#39;will likely&#39;, &#39;should&#39;,
+                    &#39;could&#39;,
+                    &#39;would&#39;, &#39;may&#39; or words
+                    or expressions of similar meaning.</h4>
+                <h4>Such statements are not guaranteeing of future performance and are subject to risks
+                    and uncertainties that could cause the company&#39;s actual results and financial
+                    position to differ materially from those included within the forward-looking
+                    statements. Forward-looking statements involve risks and uncertainties, including
+                    those relating to the Company&#39;s ability to grow its business. Actual results may
+                    differ materially from the results predicted and reported results should not be
+                    considered as an indication of future performance.</h4>
+            </div>
+        </div>
+    </div>
+    <div id="workinprogress" class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Site Under Development</h2><br>
+                <h4>Please return to our site at a later time.</h4>
+            </div>
+        </div>
+    </div>
 
     <footer class="container-fluid text-center">
-        <a href="#myPage" title="To Top">
+        <a href="#page_top" title="To Top">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
         <p>Perfozone 2024 <a href="" title=""></a></p>
@@ -524,7 +464,7 @@
     <script>
         $(document).ready(function () {
             // Add smooth scrolling to all links in navbar + footer link
-            $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+            $(".navbar a, footer a[href='#page_top']").on('click', function (event) {
                 // Make sure this.hash has a value before overriding default behavior
                 if (this.hash !== "") {
                     // Prevent default anchor click behavior
