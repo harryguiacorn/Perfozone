@@ -5,14 +5,28 @@ body {
     color: #818181;
 }
 
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+p {
+    color: #000AFF;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 0px 0px 0px 35px;
+
+}
+
 h1 {
     color: #0101a0 !important;
 }
 
 h2 {
     font-size: 24px;
-    text-transform: uppercase;
-    color: #0101a0;
+    /* text-transform: uppercase; */
+    color: #000AFF;
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -22,19 +36,19 @@ h4 {
     line-height: 1.375em;
     color: #303030;
     font-weight: 400;
-    margin-bottom: 30px;
-    text-align: justify;
+    /* margin-bottom: 30px;
+    text-align: justify; */
 }
 
 .jumbotron {
-    background-color: #fde706;
+    background-color: #85ccea;
     color: #fff;
-    padding: 50px 25px;
+    padding: 50px 80px;
     font-family: "Times New Roman", Times, serif;
 }
 
 .container-fluid {
-    padding: 60px 50px;
+    padding: 60px 80px;
 }
 
 .bg-grey {
