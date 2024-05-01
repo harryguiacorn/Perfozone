@@ -11,7 +11,7 @@ body {
     font-weight: bold;
 }
 
-p {
+#txt_optimised {
     color: #000AFF;
     font-weight: bold;
     margin: 0 0 10px;
@@ -20,7 +20,7 @@ p {
 }
 
 h1 {
-    color: #0101a0 !important;
+    color: #000AFF !important;
 }
 
 h2 {
@@ -163,12 +163,12 @@ h4 {
 
 .navbar li a,
 .navbar .navbar-brand {
-    color: #fff !important;
+    color: #000AFF !important;
 }
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-    color: #fde706 !important;
+    color: #000AFF !important;
     background-color: #fff !important;
 }
 
@@ -198,6 +198,22 @@ footer .glyphicon {
 .disclaimer {
     color: red;
     text-align: center;
+}
+
+#introduction img {
+    padding: 80px 0;
+}
+
+#whoweare_glyphicon {
+    padding: 40px 0;
+}
+
+#product-glyphicon {
+    padding: 40px 0;
+}
+
+#forwardlooking-glyphicon {
+    padding: 40px 0;
 }
 
 #contactus h4 {
