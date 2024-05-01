@@ -164,6 +164,7 @@ h4 {
 .navbar li a,
 .navbar .navbar-brand {
     color: #000AFF !important;
+    font-weight: bold;
 }
 
 .navbar-nav li a:hover,
